@@ -1,7 +1,5 @@
 'use strict'
 
-alert('This webpage isnt responsive yet');
-
 document.querySelector('.about-team-wrapper .next').addEventListener('click', () => {
     document.querySelector('.carousel').scrollLeft += document.querySelector('.carousel .card').clientWidth;
 
